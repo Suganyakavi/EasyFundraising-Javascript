@@ -1,0 +1,19 @@
+{
+  "name": "easyfundraising-testing",
+  "version": "1.0.0",
+  "description": "Testing easyfundraising Find a cause Search functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "author": "Suganya Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.0",
+    "chai": "^4.3.7",
+    "chromedriver": "^108.0.0"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.7.0"
+  }
+}
